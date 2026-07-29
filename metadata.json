@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Normal, IL Garage Doors",
+  "description": "High-converting SEO website for Normal, IL garage door repairs, designed to maximize lead generation and local search rankings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
