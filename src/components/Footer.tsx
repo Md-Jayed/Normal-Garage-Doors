@@ -106,6 +106,11 @@ export default function Footer({ onNavigate }: FooterProps) {
                 24/7 Emergency Repairs
               </button>
             </li>
+            <li>
+              <button onClick={() => handleLinkClick('blog')} className="hover:text-amber-500 transition-colors text-left text-blue-400 font-semibold">
+                Blog & Maintenance Guides
+              </button>
+            </li>
           </ul>
         </div>
 

@@ -2,118 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://tricitiesgaragedoor.com/</loc>
+    <loc>https://normalgaragedoorrepair.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Core Services -->
   <url>
-    <loc>https://tricitiesgaragedoor.com/garage-door-repair</loc>
+    <loc>https://normalgaragedoorrepair.com/garage-door-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/garage-door-spring-repair</loc>
+    <loc>https://normalgaragedoorrepair.com/garage-door-spring-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/garage-door-opener-repair</loc>
+    <loc>https://normalgaragedoorrepair.com/garage-door-opener-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/garage-door-opener-installation</loc>
+    <loc>https://normalgaragedoorrepair.com/garage-door-opener-installation</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/garage-door-installation</loc>
+    <loc>https://normalgaragedoorrepair.com/garage-door-installation</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/emergency-garage-door-repair</loc>
+    <loc>https://normalgaragedoorrepair.com/emergency-garage-door-repair</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Service Cities -->
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/johnson-city-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/normal-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/kingsport-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/bloomington-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/bristol-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/towanda-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/elizabethton-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/hudson-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/jonesborough-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/carlock-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/erwin-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/lexington-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/piney-flats-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/downs-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/city/gray-tn</loc>
+    <loc>https://normalgaragedoorrepair.com/city/heyworth-il</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://normalgaragedoorrepair.com/city/stanford-il</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://normalgaragedoorrepair.com/city/leroy-il</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://normalgaragedoorrepair.com/city/elpaso-il</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog System -->
+  <url>
+    <loc>https://normalgaragedoorrepair.com/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://normalgaragedoorrepair.com/blog/how-to-tell-if-garage-door-spring-is-broken</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://normalgaragedoorrepair.com/blog/5-essential-winter-garage-door-maintenance-tips</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Key Information Pages -->
   <url>
-    <loc>https://tricitiesgaragedoor.com/about</loc>
+    <loc>https://normalgaragedoorrepair.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/why-choose-us</loc>
+    <loc>https://normalgaragedoorrepair.com/why-choose-us</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/service-areas</loc>
+    <loc>https://normalgaragedoorrepair.com/service-areas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/faqs</loc>
+    <loc>https://normalgaragedoorrepair.com/faqs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/contact</loc>
+    <loc>https://normalgaragedoorrepair.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/privacy-policy</loc>
+    <loc>https://normalgaragedoorrepair.com/privacy-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://tricitiesgaragedoor.com/terms-and-conditions</loc>
+    <loc>https://normalgaragedoorrepair.com/terms-and-conditions</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

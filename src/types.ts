@@ -44,3 +44,17 @@ export interface Testimonial {
   text: string;
   service: string;
 }
+
+export interface BlogPost {
+  title: string;
+  description: string;
+  slug: string;
+  date: string;
+  updatedDate?: string;
+  author: string;
+  featuredImage: string;
+  featuredImageAlt: string;
+  primaryKeyword: string;
+  category: string;
+  content: string;
+}

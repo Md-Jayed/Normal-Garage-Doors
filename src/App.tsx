@@ -10,6 +10,9 @@ import ContactView from './components/ContactView';
 import LegalViews from './components/LegalViews';
 import ServiceAreasView from './components/ServiceAreasView';
 import WhyChooseUsView from './components/WhyChooseUsView';
+import BlogIndexView from './components/BlogIndexView';
+import BlogPostView from './components/BlogPostView';
+import { getPostBySlug } from './lib/blog';
 import { servicesData } from './data/servicesData';
 import { citiesData } from './data/citiesData';
 
@@ -189,6 +192,51 @@ export default function App() {
           }
         };
       }
+    } else if (currentPath === 'blog') {
+      title = 'Garage Door Repair Blog & Guides | Normal IL';
+      description = 'Expert garage door repair guides, troubleshooting tips, spring replacement advice, and seasonal maintenance checklists for Normal & Bloomington, IL homeowners.';
+      schemaJson = {
+        '@context': 'https://schema.org',
+        '@type': 'Blog',
+        'name': 'Normal Garage Door Repair Blog',
+        'description': description,
+        'url': canonicalUrl,
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'Normal Garage Door Repair',
+          'telephone': '+13095558240'
+        }
+      };
+    } else if (currentPath.startsWith('blog/')) {
+      const blogSlug = currentPath.replace(/^blog\//, '');
+      const post = getPostBySlug(blogSlug);
+      if (post) {
+        title = `${post.title} | Normal Garage Door Repair`;
+        description = post.description;
+        schemaJson = {
+          '@context': 'https://schema.org',
+          '@type': 'BlogPosting',
+          'headline': post.title,
+          'description': post.description,
+          'image': post.featuredImage.startsWith('http') ? post.featuredImage : `${baseDomain}${post.featuredImage}`,
+          'datePublished': post.date,
+          'dateModified': post.updatedDate || post.date,
+          'author': {
+            '@type': 'Organization',
+            'name': post.author
+          },
+          'publisher': {
+            '@type': 'Organization',
+            'name': 'Normal Garage Door Repair',
+            'telephone': '+13095558240'
+          },
+          'mainEntityOfPage': {
+            '@type': 'WebPage',
+            '@id': canonicalUrl
+          },
+          'keywords': post.primaryKeyword
+        };
+      }
     } else {
       switch (currentPath) {
         case 'about':
@@ -347,6 +395,15 @@ export default function App() {
     if (currentPath.startsWith('city/')) {
       const cityId = currentPath.split('/')[1];
       return <CityView cityId={cityId} onNavigate={handleNavigate} />;
+    }
+
+    if (currentPath === 'blog') {
+      return <BlogIndexView onNavigate={handleNavigate} />;
+    }
+
+    if (currentPath.startsWith('blog/')) {
+      const slug = currentPath.replace(/^blog\//, '');
+      return <BlogPostView slug={slug} onNavigate={handleNavigate} />;
     }
 
     switch (currentPath) {

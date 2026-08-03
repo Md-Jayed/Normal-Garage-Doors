@@ -182,6 +182,15 @@ export default function Header({ currentPath, onNavigate }: HeaderProps) {
             </button>
 
             <button
+              onClick={() => handleLinkClick('blog')}
+              className={`text-sm font-semibold transition-colors ${
+                currentPath === 'blog' || currentPath.startsWith('blog/') ? 'text-blue-900 border-b-2 border-blue-900 pb-0.5' : 'text-slate-600 hover:text-blue-900'
+              }`}
+            >
+              Blog
+            </button>
+
+            <button
               onClick={() => handleLinkClick('about')}
               className={`text-sm font-semibold transition-colors ${
                 currentPath === 'about' ? 'text-blue-900 border-b-2 border-blue-900 pb-0.5' : 'text-slate-600 hover:text-blue-900'
@@ -290,6 +299,13 @@ export default function Header({ currentPath, onNavigate }: HeaderProps) {
               className="text-left py-2 font-semibold text-slate-800 hover:text-blue-900 text-sm border-b border-slate-50"
             >
               Why Choose Us
+            </button>
+
+            <button
+              onClick={() => handleLinkClick('blog')}
+              className="text-left py-2 font-semibold text-slate-800 hover:text-blue-900 text-sm border-b border-slate-50"
+            >
+              Blog & Repair Guides
             </button>
 
             <button

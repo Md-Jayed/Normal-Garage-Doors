@@ -11,7 +11,7 @@ export const serviceImages: Record<string, string> = {
 };
 
 // Default high-quality fallback image (technician on site)
-export const DEFAULT_SERVICE_IMAGE = '/images/garage-door-repair.png';
+export const DEFAULT_SERVICE_IMAGE = '/images/garage-door-repair.webp';
 
 export function getServiceImage(serviceId: string): string {
   return serviceImages[serviceId] || DEFAULT_SERVICE_IMAGE;
